@@ -7,7 +7,7 @@ entries:
       application.giantswarm.io/values-schema: https://pg2000.github.io/tkp-app-catalog/http-echo-0.3.2.tgz-meta/values.schema.json
     apiVersion: v2
     appVersion: 0.2.3
-    created: "2022-03-30T20:00:33.361453+02:00"
+    created: "2022-03-30T21:12:05.614043+02:00"
     dependencies:
     - name: common
       repository: file://charts/common
@@ -28,6 +28,6 @@ entries:
     - https://github.com/hashicorp/http-echo
     type: application
     urls:
-    - http-echo-0.3.2.tgz
+    - https://pg2000.github.io/tkp-app-catalog/http-echo-0.3.2.tgz
     version: 0.3.2
-generated: "2022-03-30T20:00:33.353232+02:00"
+generated: "2022-03-30T21:12:05.606647+02:00"
