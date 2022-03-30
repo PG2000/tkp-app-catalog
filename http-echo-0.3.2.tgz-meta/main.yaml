@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://pg2000.github.io/tkp-app-catalog/http-echo-0.3.2.tgz-meta/main.yaml
+  application.giantswarm.io/team: robots
+  application.giantswarm.io/values-schema: https://pg2000.github.io/tkp-app-catalog/http-echo-0.3.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: http-echo-0.3.2.tgz
+dateCreated: '2022-03-30T17:52:28.845822'
+digest: a56b303f5d95a6bbe9f72fa3dade63f06e980b14f46be38e23249f89221414a6
+home: https://github.com/haraldkoch/helm-charts/tree/main/charts/echo
+icon: https://secure.gravatar.com/avatar/f7304a610df968cef5badc9e9dcd40e0.jpg?s=80&r=g&d=mm

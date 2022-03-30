@@ -1,15 +1,19 @@
 apiVersion: v1
 entries:
   http-echo:
-  - apiVersion: v2
+  - annotations:
+      application.giantswarm.io/metadata: https://pg2000.github.io/tkp-app-catalog/http-echo-0.3.2.tgz-meta/main.yaml
+      application.giantswarm.io/team: robots
+      application.giantswarm.io/values-schema: https://pg2000.github.io/tkp-app-catalog/http-echo-0.3.2.tgz-meta/values.schema.json
+    apiVersion: v2
     appVersion: 0.2.3
-    created: "2022-03-30T10:12:02.767128+02:00"
+    created: "2022-03-30T20:00:33.361453+02:00"
     dependencies:
     - name: common
-      repository: https://library-charts.k8s-at-home.com
+      repository: file://charts/common
       version: 4.3.0
     description: A Helm chart for the Hashicorp HTTP Echo application
-    digest: 20a3a3f67d02c4db7248bae6cb17a34d858778afac934564ee4a4e7328104f59
+    digest: a56b303f5d95a6bbe9f72fa3dade63f06e980b14f46be38e23249f89221414a6
     home: https://github.com/haraldkoch/helm-charts/tree/main/charts/echo
     icon: https://secure.gravatar.com/avatar/f7304a610df968cef5badc9e9dcd40e0.jpg?s=80&r=g&d=mm
     keywords:
@@ -26,4 +30,4 @@ entries:
     urls:
     - http-echo-0.3.2.tgz
     version: 0.3.2
-generated: "2022-03-30T10:12:02.764019+02:00"
+generated: "2022-03-30T20:00:33.353232+02:00"
