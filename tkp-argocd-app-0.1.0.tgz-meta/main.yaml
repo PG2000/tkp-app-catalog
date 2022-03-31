@@ -1,0 +1,6 @@
+annotations:
+  application.giantswarm.io/metadata: https://pg2000.github.io/tkp-app-catalog/tkp-argocd-app-0.1.0.tgz-meta/main.yaml
+chartApiVersion: v2
+chartFile: tkp-argocd-app-0.1.0.tgz
+dateCreated: '2022-03-31T09:14:31.762132'
+digest: 8091a0ee2c2a41695718690b42ebe53ded98686baf3db87e7c9281029801a68e
