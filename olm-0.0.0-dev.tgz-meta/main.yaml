@@ -1,0 +1,6 @@
+annotations:
+  application.giantswarm.io/metadata: https://pg2000.github.io/tkp-app-catalog/olm-0.0.0-dev.tgz-meta/main.yaml
+chartApiVersion: v2
+chartFile: olm-0.0.0-dev.tgz
+dateCreated: '2022-03-31T08:49:10.749438'
+digest: d5c18c77f273d195297a311b68555370f97d4be5676e9b4ef1dbd4bb56f72188

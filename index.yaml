@@ -7,7 +7,7 @@ entries:
       application.giantswarm.io/values-schema: https://pg2000.github.io/tkp-app-catalog/http-echo-0.3.2.tgz-meta/values.schema.json
     apiVersion: v2
     appVersion: 0.2.3
-    created: "2022-03-30T21:12:05.614043+02:00"
+    created: "2022-03-31T10:51:23.915414+02:00"
     dependencies:
     - name: common
       repository: file://charts/common
@@ -30,4 +30,15 @@ entries:
     urls:
     - https://pg2000.github.io/tkp-app-catalog/http-echo-0.3.2.tgz
     version: 0.3.2
-generated: "2022-03-30T21:12:05.606647+02:00"
+  olm:
+  - annotations:
+      application.giantswarm.io/metadata: https://pg2000.github.io/tkp-app-catalog/olm-0.0.0-dev.tgz-meta/main.yaml
+    apiVersion: v2
+    created: "2022-03-31T10:51:23.918792+02:00"
+    description: A Helm chart for Kubernetes
+    digest: d5c18c77f273d195297a311b68555370f97d4be5676e9b4ef1dbd4bb56f72188
+    name: olm
+    urls:
+    - https://pg2000.github.io/tkp-app-catalog/olm-0.0.0-dev.tgz
+    version: 0.0.0-dev
+generated: "2022-03-31T10:51:23.911227+02:00"
