@@ -5,7 +5,7 @@ annotations:
     '
 chartApiVersion: v2
 chartFile: argo-cd-4.3.2.tgz
-dateCreated: '2022-03-31T17:45:05.986336'
-digest: 8fc9868b39520b49fa35b6dbfdb29ce6503990067c2814a92e6583c55073080a
+dateCreated: '2022-03-31T18:14:43.469600'
+digest: 167d444b82d92758e9d1b56f37361e162a285098a48f27975c44840f1eeb1447
 home: https://github.com/argoproj/argo-helm
 icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
