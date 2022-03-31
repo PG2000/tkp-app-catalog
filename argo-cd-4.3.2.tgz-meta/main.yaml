@@ -1,11 +1,12 @@
 annotations:
   application.giantswarm.io/metadata: https://pg2000.github.io/tkp-app-catalog/argo-cd-4.3.2.tgz-meta/main.yaml
+  application.giantswarm.io/values-schema: https://pg2000.github.io/tkp-app-catalog/argo-cd-4.3.2.tgz-meta/values.schema.json
   artifacthub.io/changes: '- "[Fixed]: Upgrade dex to v2.30.2"
 
     '
 chartApiVersion: v2
 chartFile: argo-cd-4.3.2.tgz
-dateCreated: '2022-03-31T18:14:43.469600'
-digest: 167d444b82d92758e9d1b56f37361e162a285098a48f27975c44840f1eeb1447
+dateCreated: '2022-03-31T18:20:27.796513'
+digest: 48a445fde004ef56c70e6132319c87fed13db77b10ce3673338bbd66ccae9407
 home: https://github.com/argoproj/argo-helm
 icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
