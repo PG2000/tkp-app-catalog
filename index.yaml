@@ -3,11 +3,12 @@ entries:
   argo-cd:
   - annotations:
       application.giantswarm.io/metadata: https://pg2000.github.io/tkp-app-catalog/argo-cd-4.3.2.tgz-meta/main.yaml
+      application.giantswarm.io/values-schema: https://pg2000.github.io/tkp-app-catalog/argo-cd-4.3.2.tgz-meta/values.schema.json
       artifacthub.io/changes: |
         - "[Fixed]: Upgrade dex to v2.30.2"
     apiVersion: v2
     appVersion: v2.3.3
-    created: "2022-03-31T20:14:58.319819+02:00"
+    created: "2022-03-31T20:35:57.522611+02:00"
     dependencies:
     - condition: redis-ha.enabled
       name: redis-ha
@@ -15,7 +16,7 @@ entries:
       version: 4.12.17
     description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
-    digest: 167d444b82d92758e9d1b56f37361e162a285098a48f27975c44840f1eeb1447
+    digest: 48a445fde004ef56c70e6132319c87fed13db77b10ce3673338bbd66ccae9407
     home: https://github.com/argoproj/argo-helm
     icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
     keywords:
@@ -38,7 +39,7 @@ entries:
       application.giantswarm.io/values-schema: https://pg2000.github.io/tkp-app-catalog/http-echo-0.3.2.tgz-meta/values.schema.json
     apiVersion: v2
     appVersion: 0.2.3
-    created: "2022-03-31T20:14:58.325907+02:00"
+    created: "2022-03-31T20:35:57.529631+02:00"
     dependencies:
     - name: common
       repository: file://charts/common
@@ -65,7 +66,7 @@ entries:
   - annotations:
       application.giantswarm.io/metadata: https://pg2000.github.io/tkp-app-catalog/olm-0.0.0-dev.tgz-meta/main.yaml
     apiVersion: v2
-    created: "2022-03-31T20:14:58.329113+02:00"
+    created: "2022-03-31T20:35:57.533795+02:00"
     description: A Helm chart for Kubernetes
     digest: d5c18c77f273d195297a311b68555370f97d4be5676e9b4ef1dbd4bb56f72188
     name: olm
@@ -77,7 +78,7 @@ entries:
       application.giantswarm.io/metadata: https://pg2000.github.io/tkp-app-catalog/tkp-argocd-app-0.1.0.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-31T20:14:58.329883+02:00"
+    created: "2022-03-31T20:35:57.534255+02:00"
     description: A Helm chart for Kubernetes
     digest: 8091a0ee2c2a41695718690b42ebe53ded98686baf3db87e7c9281029801a68e
     name: tkp-argocd-app
@@ -90,7 +91,7 @@ entries:
       application.giantswarm.io/metadata: https://pg2000.github.io/tkp-app-catalog/tkp-olm-subscription-app-0.1.0.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-31T20:14:58.332026+02:00"
+    created: "2022-03-31T20:35:57.534647+02:00"
     description: A Helm chart for Kubernetes
     digest: 06e566362f9a2a24f7775a3f9f11c1010b2bd57c754445e17ff04057108b0f06
     name: tkp-olm-subscription-app
@@ -98,4 +99,4 @@ entries:
     urls:
     - https://pg2000.github.io/tkp-app-catalog/tkp-olm-subscription-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-31T20:14:58.308473+02:00"
+generated: "2022-03-31T20:35:57.50745+02:00"
